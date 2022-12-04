@@ -80,7 +80,7 @@ public class StudentForm extends JFrame {
 		labelGender.setBounds(87, 109, 58, 26);
 		contentPane.add(labelGender);
 		
-		cbGender = new JComboBox();
+		cbGender = new JComboBox<String>();
 		cbGender.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		cbGender.setBounds(206, 107, 117, 30);
 		cbGender.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Male", "Female", "Gender 3rd" }));
